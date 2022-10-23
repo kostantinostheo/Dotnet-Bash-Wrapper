@@ -4,7 +4,7 @@ using System.IO;
 
 namespace UnityBashSystem
 {
-    public class UnityBashManager
+    public class UnityBashWrapper
     {
         /// <summary>
         /// Executes a shell-bash command or script from a spesific directory. Default file name is "/bin/bash" for unix operating systems.
@@ -45,7 +45,8 @@ namespace UnityBashSystem
                         return false;
                     }
                 }
-                UnityEditor.AssetDatabase.Refresh();
+                //Uncomment if you are using Unity Editor GUI
+                //UnityEditor.AssetDatabase.Refresh();
                 return true;
             }
             catch (System.Exception)
@@ -84,7 +85,8 @@ namespace UnityBashSystem
                         return false;
                     }
                 }
-                UnityEditor.AssetDatabase.Refresh();
+                //Uncomment if you are using Unity Editor GUI
+                //UnityEditor.AssetDatabase.Refresh();
                 return true;
             }
             catch (System.Exception)
@@ -116,11 +118,16 @@ namespace UnityBashSystem
             return files;
         }
 
+        //Uncomment the appropriate print function based on your application type
         #region Logs
         private static void Print(string text = "")
         {
+#if UNITY_EDITOR
             UnityEngine.Debug.Log(text);
+#elif (NETFRAMEWORK || NETSTANDARD || NET)
+            System.Console.WriteLine(text);
+#endif
         }
-        #endregion
+#endregion
     }
 }
