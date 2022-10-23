@@ -2,7 +2,7 @@
 
 ### Summary
 
-<p>Unity Bash Manager is a set of methods that helps you execute bash-shell commands or .sh files using Unity Engine and Unity Editor. They can be also used on any .NET application.</p>
+<p>Unity Bash Wrapper is a set of C# methods that helps you execute bash-shell commands or .sh files using Unity Engine and Unity Editor. They can be also used on any .NET application.</p>
 
 --- 
 
