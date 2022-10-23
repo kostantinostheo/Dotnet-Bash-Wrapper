@@ -1,4 +1,4 @@
-# Unity Bash Manager
+# Unity Bash Wrapper
 
 ### Summary
 
