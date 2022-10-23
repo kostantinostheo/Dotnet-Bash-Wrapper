@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
-namespace UnityBashSystem
+namespace BashSystem
 {
-    public class UnityBashWrapper
+    public class BashWrapper
     {
         /// <summary>
         /// Executes a shell-bash command or script from a spesific directory. Default file name is "/bin/bash" for unix operating systems.
