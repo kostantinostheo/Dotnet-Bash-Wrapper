@@ -1,8 +1,8 @@
-# Unity Bash Wrapper
+# .Net Bash Wrapper
 
 ### Summary
 
-<p>Unity Bash Wrapper is a set of C# methods that helps you execute bash-shell commands or .sh files using Unity Engine and Unity Editor. They can be also used on any .NET application.</p>
+<p>.Net Bash Wrapper is a set of C# methods that helps you execute bash-shell commands or .sh files alongside Unity Engine and Unity Editor. The Wrapper can be also used on any .NET application.</p>
 
 --- 
 
