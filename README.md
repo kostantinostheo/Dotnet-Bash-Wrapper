@@ -18,22 +18,22 @@
 ##### 1. RunAsync
 
 <b>Description:</b> </br>
-```Executes asynchronous cmd or terminal commands.</br>```
+```Executes asynchronous cmd or terminal commands.```
 
 ##### 2. RunSync
 
 <b>Description:</b> </br>
-```Executes synchronous cmd or terminal commands.</br>```
+```Executes synchronous cmd or terminal commands.```
 
 ##### 3. BashAsExecutableAsync
 
 <b>Description:</b> </br>
-```Makes a bash file executable asynchronously</br>```
+```Makes a bash file executable asynchronously```
 
 ##### 4. BashAsExecutableSync
 
 <b>Description:</b> </br>
-```Makes a bash file executable synchronously</br>```
+```Makes a bash file executable synchronously```
 
 #### Bash Wrapper
 
